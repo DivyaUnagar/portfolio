@@ -35,7 +35,7 @@ const Contact = () => {
             })}
           </div>
 
-          <form className="space-y-8 w-full max-w-[780px]">
+          {/* <form className="space-y-8 w-full max-w-[780px]">
             <div className="flex gap-8">
               <input className="input" type="text" placeholder="Your name" />
               <input className="input" type="text" placeholder="Your email" />
@@ -50,7 +50,7 @@ const Contact = () => {
             <button className="btn btn-lg bg-accent hover:bg-accent-hover">
               Send message
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>
