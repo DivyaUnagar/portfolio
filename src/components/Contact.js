@@ -29,13 +29,13 @@ const Contact = () => {
                     <h4 className="font-body text-xl mb-1">{title}</h4>
                     <p className="mb-1">{subtitle}</p>
                     <p className="text-accent font-normal">{description}</p>
-                    </div>
+                  </div>
                 </div>
               );
             })}
           </div>
 
-          <form className="space-y-8 w-full max-w-[780px]">
+          {/* <form className="space-y-8 w-full max-w-[780px]">
             <div className="flex gap-8">
               <input className="input" type="text" placeholder="Your name" />
               <input className="input" type="text" placeholder="Your email" />
@@ -45,7 +45,7 @@ const Contact = () => {
             <textarea className="textarea" placeholder="Your message"></textarea>
 
             <button className="btn btn-lg bg-accent hover:bg-accent-hover">Send message</button>
-            </form>
+            </form> */}
         </div>
       </div>
     </section>
